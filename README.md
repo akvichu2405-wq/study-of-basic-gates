@@ -1,4 +1,4 @@
-### study-of-basic-gates
+<img width="987" height="595" alt="{6BAC51ED-2DE1-4382-B3BA-F2F0B7FDBA4C}" src="https://github.com/user-attachments/assets/fb26f020-b147-4dfc-bb88-8fe362c31633" />### study-of-basic-gates
 
 **AIM:** 
 
@@ -65,12 +65,25 @@ Y= A⊕B
 **PROGRAM**
 
 Program for logic gates and verify its truth table in quartus using Verilog programming
-<img width="987" height="595" alt="{6BAC51ED-2DE1-4382-B3BA-F2F0B7FDBA4C}" src="https://github.com/user-attachments/assets/a5f0c257-d9c9-42fd-9bd3-896ddd57e7cc" />
+module exp1(a,b,f1,f2,f3,f4,f5,f6,f7);
+input a,b;
+output f1,f2,f3,f4,f5,f6,f7;
+assign f1=a&b;
+assign f2=a|b;
+assign f3=~a;
+assign f4=~f1;
+assign f5=~f2;
+assign f6=a^b;
+assign f7=~(a^b);
+endmodule 
+
+
 
  Developed by:Vishnu Priya A K
  RegisterNumber: 25018523
  
 **Logic symbol & Truthtable**
+<img width="465" height="500" alt="image" src="https://github.com/user-attachments/assets/20bba90a-880d-4df1-8918-38e7d72ad4a2" />
 
 **RTL realization Output:** 
 <img width="987" height="595" alt="Screenshot 2025-10-07 124656" src="https://github.com/user-attachments/assets/0146ecee-c4c8-4347-87db-239665413791" />
